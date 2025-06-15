@@ -1,0 +1,12 @@
+{
+  "name": "No Controller Badge",
+  "version": "v1.0",
+  "author": "Lethal Hatred",
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "manifest_version": 4,
+  "id": "3af35d6-bs4g-sf3c-sg35-ksfhh0e434fgf"
+}
