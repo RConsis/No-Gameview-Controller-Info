@@ -1,9 +1,9 @@
 ._2YTg3hVVde1EN1A4QVkvAE {
-  display: none !important;
+  display: var(--HIDE-INFO-BLOCK, initial) !important;
 }
 
 ._3qDWQGB0rtwM3qpXTb11Q-._1oYt_BfxCHnA-_6sfUHiNn.Focusable {
-  display: none !important;
-  pointer-events: none !important;
-  user-select: none !important;
+  display: var(--HIDE-BUTTON, initial) !important;
+  pointer-events: var(--HIDE-BUTTON-POINTER, auto) !important;
+  user-select: var(--HIDE-BUTTON-SELECT, auto) !important;
 }
