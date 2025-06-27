@@ -2,12 +2,38 @@
   "name": "No Gameview Controller Info",
   "version": "v1.0",
   "author": "RConsis",
+  "manifest_version": 9,
+  "id": "3af35d6-bs4g-sf3c-sg35-ksfhh0e434fgf",
   "patchControllerNavigation": true,
   "inject": {
     "shared.css": [
       "bigpicture"
     ]
   },
-  "manifest_version": 9,
-  "id": "3af35d6-bs4g-sf3c-sg35-ksfhh0e434fgf"
+  "patches": {
+    "Hide Info Block": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {},
+        "No": {
+          "--HIDE-INFO-BLOCK": [
+            "none",
+            "bigpicture"
+          ]
+        }
+      }
+    },
+    "Hide Button": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {},
+        "No": {
+          "--HIDE-BUTTON": [
+            "none",
+            "bigpicture"
+          ]
+        }
+      }
+    }
+  }
 }
