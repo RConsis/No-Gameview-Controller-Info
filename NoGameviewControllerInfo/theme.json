@@ -2,11 +2,12 @@
   "name": "No Gameview Controller Info",
   "version": "v1.0",
   "author": "RConsis",
+  "patchControllerNavigation": true,
   "inject": {
     "shared.css": [
-      "SP"
+      "bigpicture"
     ]
   },
-  "manifest_version": 5,
+  "manifest_version": 9,
   "id": "3af35d6-bs4g-sf3c-sg35-ksfhh0e434fgf"
 }
