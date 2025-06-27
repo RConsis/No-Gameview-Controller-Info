@@ -11,12 +11,12 @@
     ]
   },
   "patches": {
-    "Hide Info Block": {
+    "Hide Badge": {
       "type": "checkbox",
       "values": {
         "Yes": {},
         "No": {
-          "--HIDE-INFO-BLOCK": [
+          "--hide-badge": [
             "none",
             "bigpicture"
           ]
@@ -28,7 +28,7 @@
       "values": {
         "Yes": {},
         "No": {
-          "--HIDE-BUTTON": [
+          "--hide-button": [
             "none",
             "bigpicture"
           ]
