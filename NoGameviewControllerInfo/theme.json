@@ -1,7 +1,7 @@
 {
-  "name": "No Controller Badge",
+  "name": "No Gameview Controller Info",
   "version": "v1.0",
-  "author": "Lethal Hatred",
+  "author": "RConsis",
   "inject": {
     "shared.css": [
       "SP"
