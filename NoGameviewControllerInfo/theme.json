@@ -14,8 +14,8 @@
     "Hide Badge": {
       "type": "checkbox",
       "values": {
-        "Yes": {},
-        "No": {
+        "No": {},
+        "Yes": {
           "--hide-badge": [
             "none",
             "bigpicture"
@@ -26,8 +26,13 @@
     "Hide Button": {
       "type": "checkbox",
       "values": {
-        "Yes": {},
         "No": {
+          "--hide-button": [
+            "flex",
+            "bigpicture"
+          ]
+        },
+        "Yes": {
           "--hide-button": [
             "none",
             "bigpicture"
